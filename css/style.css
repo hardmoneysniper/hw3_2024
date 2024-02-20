@@ -140,7 +140,7 @@ nav a:hover, nav a:focus {
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
 .container > :first-child {
-  grid-column: 1 / span 3;
+  grid-column: 1 / -1;
   background-image: url('../images/header.jpg');
   background-size: cover;
   background-position: center;
@@ -248,6 +248,7 @@ first div in the grid  and place it in the grid. */
   .text-block {
     max-height: 250px;
     overflow: auto;
+    
   }
 }
 
